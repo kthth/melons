@@ -1,0 +1,102 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://edition-open-access.de/studies13/manifest",
+  "type": "Manifest",
+  "label": { "en": ["Studies 13"]},
+  "metadata": [
+    {
+      "label": { "en": [ "Title"]},
+      "value": { "none": [ "Seri-Technics: Historical Silk Technologies" ] }
+    },
+    {
+      "label": { "en": [ "Author"]},
+      "value": { "none": [ "Dagmar Schäfer, Giorgio Riello, Luca Molà (eds.)" ] }
+    },
+    {
+      "label": { "en": [ "License" ] },
+      "value": { "none": [ "https://creativecommons.org/licenses/by-sa/4.0/" ] }
+    },
+    {
+      "label": { "en": [ "Published Date" ] },
+      "value": { "en": [ "25 August 2020" ] }
+    }
+  ],
+  "summary": { "en": [ "Historical case studies showing diverse regional processes of silk textile production." ] },
+  "thumbnail": [
+    {
+      "id": "http://beta.edition-open-access.de/iiif/3/studies13b!thumb.jpg/full/max/0/default.jpg",
+      "type": "Image",
+      "format": "image/jpeg",
+      "service": [
+        {
+          "id": "http://beta.edition-open-access.de/iiif/3/studies13b/thumb.jpg",
+          "type": "ImageService3",
+          "profile": "level1"
+        }
+      ]
+    }
+  ],
+  "viewingDirection": "right-to-left",
+  "behavior": [ "paged" ],
+  "navDate": "2020-08-25T00:00:00Z",
+
+  "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "requiredStatement": {
+    "label": { "en": [ "Attribution" ] },
+    "value": { "en": [ "Edition Open Access" ] }
+  },
+  "homepage": [
+    {
+      "id": "https://mprl-series.mpg.de/studies/13/",
+      "type": "Text",
+      "label": { "en": [ "Home page for Studies 13" ] },
+      "format": "text/html"
+    }
+  ],
+  "rendering": [
+    {
+      "id": "https://mprl-series.mpg.de/media/studies/13/studies13.pdf",
+      "type": "Text",
+      "label": { "en": [ "Download as PDF" ] },
+      "format": "application/pdf"
+    }
+  ],
+  "items": [
+    {
+      "id": "http://beta.edition-open-access.de/iiif/3/studies13/04_sericulture/index.json/canvas/0",
+      "type": "Canvas",
+      "label": { "none": [ "04_sericulture" ] },
+      "height": 1704,
+      "width": 2272,
+      "items": [
+        {
+          "id": "http://beta.edition-open-access.de/iiif/3/studies13/04_sericulture/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://beta.edition-open-access.de/iiif/3/studies13/04_sericulture/anno1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://beta.edition-open-access.de/iiif/3/studies13!04_sericulture!Mau_2.jpg/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "label": { "none": [ "Mau2" ] },
+                "width": 2272,
+                "height": 1704,
+                "service": [
+                  {
+                    "@id": "http://beta.edition-open-access.de/iiif/3/studies13/04_sericulture/+tiles",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              },
+              "target": "http://beta.edition-open-access.de/iiif/3/studies13/04_sericulture/index.json/canvas/0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
