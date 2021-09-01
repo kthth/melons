@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://edition-open-access.de/studies13/manifest",
+  "id": "https://kthth.github.io/melons/manifest",
   "type": "Manifest",
   "label": { "en": ["Studies 13"]},
   "metadata": [
