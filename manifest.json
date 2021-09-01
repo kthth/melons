@@ -24,12 +24,12 @@
   "summary": { "en": [ "Historical case studies showing diverse regional processes of silk textile production." ] },
   "thumbnail": [
     {
-      "id": "http://beta.edition-open-access.de/iiif/3/studies13b!thumb.jpg/full/max/0/default.jpg",
+      "id": "http://beta.edition-open-access.de/iiif/3/studies13!thumb.jpg/full/max/0/default.jpg",
       "type": "Image",
       "format": "image/jpeg",
       "service": [
         {
-          "id": "http://beta.edition-open-access.de/iiif/3/studies13b/thumb.jpg",
+          "id": "http://beta.edition-open-access.de/iiif/3/studies13/thumb.jpg",
           "type": "ImageService3",
           "profile": "level1"
         }
