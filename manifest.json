@@ -2,26 +2,66 @@
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "id": "https://kthth.github.io/melons/manifest",
   "type": "Manifest",
-  "label": { "en": ["Studies 13"]},
+  "label": {
+    "en": [
+      "Studies 13"
+    ]
+  },
   "metadata": [
     {
-      "label": { "en": [ "Title"]},
-      "value": { "none": [ "Seri-Technics: Historical Silk Technologies" ] }
+      "label": {
+        "en": [
+          "Title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Seri-Technics: Historical Silk Technologies"
+        ]
+      }
     },
     {
-      "label": { "en": [ "Author"]},
-      "value": { "none": [ "Dagmar Schäfer, Giorgio Riello, Luca Molà (eds.)" ] }
+      "label": {
+        "en": [
+          "Author"
+        ]
+      },
+      "value": {
+        "none": [
+          "Dagmar Schäfer, Giorgio Riello, Luca Molà (eds.)"
+        ]
+      }
     },
     {
-      "label": { "en": [ "License" ] },
-      "value": { "none": [ "https://creativecommons.org/licenses/by-sa/4.0/" ] }
+      "label": {
+        "en": [
+          "License"
+        ]
+      },
+      "value": {
+        "none": [
+          "https://creativecommons.org/licenses/by-sa/4.0/"
+        ]
+      }
     },
     {
-      "label": { "en": [ "Published Date" ] },
-      "value": { "en": [ "25 August 2020" ] }
+      "label": {
+        "en": [
+          "Published Date"
+        ]
+      },
+      "value": {
+        "en": [
+          "25 August 2020"
+        ]
+      }
     }
   ],
-  "summary": { "en": [ "Historical case studies showing diverse regional processes of silk textile production." ] },
+  "summary": {
+    "en": [
+      "Historical case studies showing diverse regional processes of silk textile production."
+    ]
+  },
   "thumbnail": [
     {
       "id": "http://beta.edition-open-access.de/iiif/3/studies13!thumb.jpg/full/max/0/default.jpg",
@@ -37,19 +77,32 @@
     }
   ],
   "viewingDirection": "right-to-left",
-  "behavior": [ "paged" ],
+  "behavior": [
+    "paged"
+  ],
   "navDate": "2020-08-25T00:00:00Z",
-
   "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
   "requiredStatement": {
-    "label": { "en": [ "Attribution" ] },
-    "value": { "en": [ "Edition Open Access" ] }
+    "label": {
+      "en": [
+        "Attribution"
+      ]
+    },
+    "value": {
+      "en": [
+        "Edition Open Access"
+      ]
+    }
   },
   "homepage": [
     {
       "id": "https://mprl-series.mpg.de/studies/13/",
       "type": "Text",
-      "label": { "en": [ "Home page for Studies 13" ] },
+      "label": {
+        "en": [
+          "Home page for Studies 13"
+        ]
+      },
       "format": "text/html"
     }
   ],
@@ -57,7 +110,11 @@
     {
       "id": "https://mprl-series.mpg.de/media/studies/13/studies13.pdf",
       "type": "Text",
-      "label": { "en": [ "Download as PDF" ] },
+      "label": {
+        "en": [
+          "Download as PDF"
+        ]
+      },
       "format": "application/pdf"
     }
   ],
@@ -65,7 +122,11 @@
     {
       "id": "http://beta.edition-open-access.de/iiif/3/studies13/04_sericulture/index.json/canvas/0",
       "type": "Canvas",
-      "label": { "none": [ "04_sericulture" ] },
+      "label": {
+        "none": [
+          "04_sericulture"
+        ]
+      },
       "height": 1704,
       "width": 2272,
       "items": [
@@ -81,7 +142,11 @@
                 "id": "http://beta.edition-open-access.de/iiif/3/studies13!04_sericulture!Mau_2.jpg/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "label": { "none": [ "Mau2" ] },
+                "label": {
+                  "none": [
+                    "Mau2"
+                  ]
+                },
                 "width": 2272,
                 "height": 1704,
                 "service": [
